@@ -10,3 +10,11 @@ Base On Duilib. Modified Its Rendering Part into flexible OS choices with D2D/GD
 4:简单的动画控件示例 
 
 5:Web展示支持CEF3 (双消息循环模式,兼容CEF3消息循环) (支持页面类容OSR)
+
+TODO:
+
+1:SKIA Angle支持的对接
+
+2:文字渲染改为SKIA
+
+3:增加一些窗口动画
