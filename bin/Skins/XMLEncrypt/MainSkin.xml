@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window size="350,200" roundcorner="5,5" caption="2,2,2,-1" bktrans="true" glass="true">
+	<Font name="微软雅黑,雅黑,宋体" size="12" />
+	<Font name="微软雅黑,雅黑,宋体" size="12" bold="true" />
+	<Font name="微软雅黑,雅黑,宋体" size="22" bold="true" />
+	<Font name="微软雅黑,雅黑,宋体" size="26" bold="true" />
+
+	<Default name="Button" value="textcolor=&quot;#000000&quot; hottextcolor=&quot;#FFFFFF&quot; focusedtextcolor=&quot;#000000&quot; pushedtextcolor=&quot;#77a8de&quot; normalimage=&quot;file='Button/btn.png' fade='255' corner='5,11,5,11' source='0,0,96,24'&quot; hotimage=&quot;file='Button/btn.png' fade='255' corner='5,11,5,11' source='0,24,96,48'&quot; pushedimage=&quot;file='Button/btn.png' corner='5,11,5,11' source='0,48,96,72'&quot; disabledimage=&quot;file='Button/btn.png' corner='5,11,5,11' source='0,72,96,96'&quot;" />
+	
+	
+	<VerticalLayout name="Main" bkcolor="#7F40C4FF" >
+		<Label float="true" text="文件:" pos="65,40,0,0" width="50" height="35" />
+		<Label float="true" name="LblFileName" text="拖拽一个Zip或文件夹" pos="120,40,0,0" width="200" height="35" />
+		<Label float="true" text="密文:" pos="65,83,0,0" width="50" height="35" />
+		<Edit float="true" name="EdtPwd" pos="120,85,0,0" width="170" height="30" />
+		<Button float="true" text="加密" tooltip="加密一个Zip或加密压缩一个文件夹" name="BtnEnCrypt" pos="60,130,0,0" width="90" height="35" />
+		<Button float="true" text="解密" tooltip="解密一个Zip" name="BtnDeCrypt" pos="200,130,0,0" width="90" height="35" />
+	</VerticalLayout>
+</Window>

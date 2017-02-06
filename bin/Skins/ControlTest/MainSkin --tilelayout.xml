@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window size="800,800" caption="2,2,2,-1" bktrans="false" glass="false" sizebox="3,3,3,3">
+
+    <VerticalLayout>
+        <Label height="30" />
+        <TileLayout  height="300" itemsize="120,30" childpadding="10" inset="5,5,5,5" vscrollbar="true" name="MainBody" bkcolor="0xff7f7f7f">
+        <Button bkcolor="0xff333333" text="1" />
+        <Button bkcolor="0xff333333" text="2" />
+        <Button bkcolor="0xff333333" text="3" />
+        <Button bkcolor="0xff333333" text="4" />
+        <Button bkcolor="0xff333333" text="5" />
+        <Button bkcolor="0xff333333" text="6" />
+        <Button bkcolor="0xff333333" text="7" />
+        <Button bkcolor="0xff333333" text="8" />
+        <Button bkcolor="0xff333333" text="9" />
+        
+    </TileLayout>
+
+    <Edit  name="EdtPwd"  width="170" height="30" password="true"/>
+    </VerticalLayout>
+ 
+</Window>

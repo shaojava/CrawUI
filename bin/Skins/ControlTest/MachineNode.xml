@@ -1,0 +1,9 @@
+<XML>
+
+<MachineNode height="45" >
+	
+		<Text name="TxtID" text="420********120" width="130" bkcolor="0xffff0000" />
+		<Button text="Add" width="50" bkcolor="0xff00ff00"/>
+	
+	
+</MachineNode>  

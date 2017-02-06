@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="DLL_Debug|Win32">
+      <Configuration>DLL_Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="DLL_Release|Win32">
+      <Configuration>DLL_Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Static_Debug|Win32">
+      <Configuration>Static_Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Static_Release|Win32">
+      <Configuration>Static_Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8008C984-6884-460A-8242-9A58A7A77036}</ProjectGuid>
+    <RootNamespace>UiLibs</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DLL_Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DLL_Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static_Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Static_Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug_NoCEF|Win32'">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DLL_Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='DLL_Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Static_Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Static_Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Static_Debug|Win32'">$(SolutionDir)Common\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Static_Debug|Win32'">$(SolutionDir)Temp\$(ProjectName)\$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Static_Release|Win32'">$(SolutionDir)\Common\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Static_Release|Win32'">$(SolutionDir)\Temp\$(ProjectName)\$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='DLL_Debug|Win32'">$(SolutionDir)Common\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='DLL_Debug|Win32'">$(SolutionDir)Temp\$(ProjectName)\$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='DLL_Release|Win32'">$(SolutionDir)Common\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='DLL_Release|Win32'">$(SolutionDir)Temp\$(ProjectName)\$(Configuration)\</IntDir>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='DLL_Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='DLL_Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='DLL_Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='DLL_Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='DLL_Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='DLL_Release|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Static_Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Static_Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Static_Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Static_Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Static_Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Static_Release|Win32'" />
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='DLL_Debug|Win32'">D:\Program Files\Visual Leak Detector\include;$(SolutionDir)\3rdParty\wke\include;$(SolutionDir)\3rdParty\chrome;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)\include;$(FrameworkSDKDir)include</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='DLL_Debug|Win32'">D:\Program Files\Visual Leak Detector\lib\Win32;$(SolutionDir)\3rdParty\wke\lib\Debug\;$(SolutionDir)\3rdParty\chrome\lib\Debug\;$(LibraryPath)</LibraryPath>
+    <SourcePath Condition="'$(Configuration)|$(Platform)'=='DLL_Debug|Win32'">$(SourcePath)</SourcePath>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='DLL_Debug|Win32'">$(ProjectName)_d</TargetName>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='DLL_Debug|Win32'">true</LinkIncremental>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='DLL_Release|Win32'">$(SolutionDir)\3rdParty\chrome;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)\include;$(FrameworkSDKDir)include</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='DLL_Release|Win32'">$(SolutionDir)\3rdParty\chrome\lib\Release\;$(LibraryPath)</LibraryPath>
+    <SourcePath Condition="'$(Configuration)|$(Platform)'=='DLL_Release|Win32'">$(SourcePath)</SourcePath>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Static_Debug|Win32'">$(ProjectName)_d</TargetName>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Static_Debug|Win32'">$(SolutionDir)\3rdParty\chrome;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)\include;$(FrameworkSDKDir)include</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Static_Debug|Win32'">$(SolutionDir)\3rdParty\chrome\lib\Debug\;$(LibraryPath)</LibraryPath>
+    <SourcePath Condition="'$(Configuration)|$(Platform)'=='Static_Debug|Win32'">$(SourcePath)</SourcePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Static_Release|Win32'">$(SolutionDir)\3rdParty\chrome;$(VCInstallDir)include;$(VCInstallDir)atlmfc\include;$(WindowsSdkDir)\include;$(FrameworkSDKDir)include</IncludePath>
+    <LibraryPath Condition="'$(Configuration)|$(Platform)'=='Static_Release|Win32'">$(SolutionDir)\3rdParty\chrome\lib\Release\;$(LibraryPath)</LibraryPath>
+    <SourcePath Condition="'$(Configuration)|$(Platform)'=='Static_Release|Win32'">$(SourcePath)</SourcePath>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug_NoCEF|Win32'">$(SolutionDir)Common\$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug_NoCEF|Win32'">$(SolutionDir)Temp\$(ProjectName)\$(Configuration)\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug_NoCEF|Win32'">$(ProjectName)_d</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Static_Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>.\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;UILIB_D3D1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <ProgramDataBaseFileName>$(OutDir)$(ProjectName)_d.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)$(ProjectName)_d.lib</OutputFile>
+      <AdditionalLibraryDirectories>$(SolutionDir)\Common\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+    <PostBuildEvent>
+      <Command>xcopy $(ProjectDir)*.h $(SolutionDir)\Common\Include\UiLib\ /E /S /Y /D
+xcopy $(ProjectDir)*.tlh $(SolutionDir)\Common\Include\UiLib\ /E /S /Y /D</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Static_Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>.\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <AdditionalLibraryDirectories>$(SolutionDir)\Common\$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <OutputFile>$(OutDir)$(ProjectName).lib</OutputFile>
+    </Lib>
+    <PostBuildEvent>
+      <Command>xcopy $(ProjectDir)*.h $(SolutionDir)\Common\Include\UiLib\ /E /S /Y /D
+xcopy $(ProjectDir)*.tlh $(SolutionDir)\Common\Include\UiLib\ /E /S /Y /D</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DLL_Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>.\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>UILIB_D3D;WIN32;_DEBUG;_WINDOWS;UILIB_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <EnableEnhancedInstructionSet>NotSet</EnableEnhancedInstructionSet>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <ProgramDataBaseFileName>$(OutDir)$(ProjectName)_d.pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <MinimalRebuild>false</MinimalRebuild>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(OutDir)$(ProjectName)_d.dll</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+      <GenerateMapFile>false</GenerateMapFile>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy $(ProjectDir)*.h $(SolutionDir)\Common\Include\UiLib\ /E /S /Y /D
+xcopy $(ProjectDir)*.tli $(SolutionDir)\Common\Include\UiLib\ /E /S /Y /D
+xcopy $(ProjectDir)*.tlh $(SolutionDir)\Common\Include\UiLib\ /E /S /Y /D
+xcopy $(SolutionDir)\Common\DLL_Debug\*.dll $(SolutionDir)\Bin\ /E /S /Y /D</Command>
+    </PostBuildEvent>
+    <Manifest>
+      <AdditionalManifestFiles>
+      </AdditionalManifestFiles>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DLL_Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <AdditionalIncludeDirectories>.\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>UILIB_D3D;WIN32;NDEBUG;_WINDOWS;_USRDLL;UILIB_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <PostBuildEvent>
+      <Command>xcopy $(ProjectDir)*.h $(SolutionDir)\Common\Include\UiLib\ /E /S /Y /D
+xcopy $(ProjectDir)*.tlh $(SolutionDir)\Common\Include\UiLib\ /E /S /Y /D
+xcopy $(SolutionDir)\Common\DLL_Release\*.dll $(SolutionDir)\Bin\ /E /S /Y /D</Command>
+    </PostBuildEvent>
+    <Link>
+      <OutputFile>$(OutDir)$(ProjectName).dll</OutputFile>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AnimateControl\UILocker.cpp" />
+    <ClCompile Include="AnimateControl\UIMaskControl.cpp" />
+    <ClCompile Include="Animation\StoryBoard.cpp" />
+    <ClCompile Include="Animation\TimeLine.cpp" />
+    <ClCompile Include="Animation\TimeLineBezier.cpp" />
+    <ClCompile Include="Animation\TimeLineDecay.cpp" />
+    <ClCompile Include="Animation\TimeLineSpring.cpp" />
+    <ClCompile Include="Animation\TimeLineTween.cpp" />
+    <ClCompile Include="Animation\Tween.cpp" />
+    <ClCompile Include="Animation\UIAnimateManager.cpp" />
+    <ClCompile Include="Control\UICaptcha.cpp" />
+    <ClCompile Include="Control\UICaret.cpp" />
+    <ClCompile Include="Control\UIDateTime.cpp" />
+    <ClCompile Include="Control\UIMenu.cpp" />
+    <ClCompile Include="Control\UIMoveAbleContainer.cpp" />
+    <ClCompile Include="Control\UITab.cpp" />
+    <ClCompile Include="Control\UIToolTips.cpp" />
+    <ClCompile Include="Control\UIWndContainer.cpp" />
+    <ClCompile Include="Layout\UIBinLayout.cpp" />
+    <ClCompile Include="Renders\UIRenderD2D.cpp" />
+    <ClCompile Include="Renders\UIRenderSKIA.cpp" />
+    <ClCompile Include="StdAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DLL_Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DLL_Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Static_Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Static_Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="UIlib.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Static_Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Control\UIActiveX.cpp" />
+    <ClCompile Include="Control\UIAnimation.cpp" />
+    <ClCompile Include="Control\UIButton.cpp" />
+    <ClCompile Include="Control\UICalendar.cpp" />
+    <ClCompile Include="Control\UIChartView.cpp" />
+    <ClCompile Include="Control\UICheckBox.cpp" />
+    <ClCompile Include="Control\UICombo.cpp" />
+    <ClCompile Include="Control\UIComboBox.cpp" />
+    <ClCompile Include="Control\UIEdit.cpp" />
+    <ClCompile Include="Control\UIFadeButton.cpp" />
+    <ClCompile Include="Control\UIFlash.cpp" />
+    <ClCompile Include="Control\UIGifAnim.cpp" />
+    <ClCompile Include="Control\UILabel.cpp" />
+    <ClCompile Include="Control\UIList.cpp" />
+    <ClCompile Include="Control\UiListView.cpp" />
+    <ClCompile Include="Control\UIOption.cpp" />
+    <ClCompile Include="Control\UIProgress.cpp" />
+    <ClCompile Include="Control\UIRadioBox.cpp" />
+    <ClCompile Include="Control\UIRichEdit.cpp" />
+    <ClCompile Include="Control\UIScrollBar.cpp" />
+    <ClCompile Include="Control\UISlider.cpp" />
+    <ClCompile Include="Control\UIText.cpp" />
+    <ClCompile Include="Control\UITreeView.cpp" />
+    <ClCompile Include="Control\UIWebBrowser.cpp" />
+    <ClCompile Include="Core\UIBase.cpp" />
+    <ClCompile Include="Core\UIContainer.cpp" />
+    <ClCompile Include="Core\UIControl.cpp" />
+    <ClCompile Include="Core\UIDlgBuilder.cpp" />
+    <ClCompile Include="Core\UIDxAnimation.cpp" />
+    <ClCompile Include="Core\UIManager.cpp" />
+    <ClCompile Include="Core\UIMarkup.cpp" />
+    <ClCompile Include="Core\UIRender.cpp" />
+    <ClCompile Include="Core\UIRenderCore.cpp" />
+    <ClCompile Include="Core\UITimer.cpp" />
+    <ClCompile Include="Layout\UIAnimationTabLayout.cpp" />
+    <ClCompile Include="Layout\UIChildLayout.cpp" />
+    <ClCompile Include="Layout\UIHorizontalLayout.cpp" />
+    <ClCompile Include="Layout\UITabLayout.cpp" />
+    <ClCompile Include="Layout\UITileLayout.cpp" />
+    <ClCompile Include="Layout\UIVerticalLayout.cpp" />
+    <ClCompile Include="Utils\CryptographyExt.cpp" />
+    <ClCompile Include="Utils\DuiAutoComplete.cpp" />
+    <ClCompile Include="Utils\DuiHardwareInfo.cpp" />
+    <ClCompile Include="Utils\DuiReflection.cpp" />
+    <ClCompile Include="Utils\DuiSystemInfo.cpp" />
+    <ClCompile Include="Utils\DuiTrayIcon.cpp" />
+    <ClCompile Include="Utils\GenerAlgorithm.cpp" />
+    <ClCompile Include="Utils\IWindowBase.cpp" />
+    <ClCompile Include="Utils\mem_image.cpp" />
+    <ClCompile Include="Utils\SSESupport.cpp" />
+    <ClCompile Include="Utils\stb_image.c">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='DLL_Debug|Win32'">.\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DLL_Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DLL_Release|Win32'">
+      </PrecompiledHeader>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Static_Debug|Win32'">.\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Static_Debug|Win32'">
+      </PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Static_Release|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="Utils\UIDelegate.cpp" />
+    <ClCompile Include="Utils\Utils.cpp" />
+    <ClCompile Include="Utils\WaitableHandleMgr.cpp" />
+    <ClCompile Include="Utils\WinImplBase.cpp" />
+    <ClCompile Include="Renders\UIRenderGDI.cpp" />
+    <ClCompile Include="Utils\WndShadow.cpp" />
+    <ClCompile Include="Utils\XUnzip.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DLL_Debug|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='DLL_Release|Win32'">NotUsing</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Static_Debug|Win32'">NotUsing</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AnimateControl\UILocker.h" />
+    <ClInclude Include="AnimateControl\UIMaskControl.h" />
+    <ClInclude Include="Animation\StoryBoard.h" />
+    <ClInclude Include="Animation\TimeLine.h" />
+    <ClInclude Include="Animation\TimeLineBezier.h" />
+    <ClInclude Include="Animation\TimeLineDecay.h" />
+    <ClInclude Include="Animation\TimeLineSpring.h" />
+    <ClInclude Include="Animation\TimeLineTween.h" />
+    <ClInclude Include="Animation\Tween.h" />
+    <ClInclude Include="Animation\UIAnimateManager.h" />
+    <ClInclude Include="Control\UICaptcha.h" />
+    <ClInclude Include="Control\UICaret.h" />
+    <ClInclude Include="Control\UIDateTime.h" />
+    <ClInclude Include="Control\UIMenu.h" />
+    <ClInclude Include="Control\UIMoveAbleContainer.h" />
+    <ClInclude Include="Control\UITab.h" />
+    <ClInclude Include="Control\UIToolTips.h" />
+    <ClInclude Include="Control\UIWndContainer.h" />
+    <ClInclude Include="Core\IRenderCore.h" />
+    <ClInclude Include="Layout\UIBinLayout.h" />
+    <ClInclude Include="Renders\UIRenderD2D.h" />
+    <ClInclude Include="Renders\UIRenderSKIA.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="UIlib.h" />
+    <ClInclude Include="Control\UIActiveX.h" />
+    <ClInclude Include="Control\UIAnimation.h" />
+    <ClInclude Include="Control\UIButton.h" />
+    <ClInclude Include="Control\UICalendar.h" />
+    <ClInclude Include="Control\UIChartView.h" />
+    <ClInclude Include="Control\UICheckBox.h" />
+    <ClInclude Include="Control\UICombo.h" />
+    <ClInclude Include="Control\UIComboBox.h" />
+    <ClInclude Include="Control\UIEdit.h" />
+    <ClInclude Include="Control\UIFadeButton.h" />
+    <ClInclude Include="Control\UIFlash.h" />
+    <ClInclude Include="Control\UIGifAnim.h" />
+    <ClInclude Include="Control\UILabel.h" />
+    <ClInclude Include="Control\UIList.h" />
+    <ClInclude Include="Control\UiListView.h" />
+    <ClInclude Include="Control\UIOption.h" />
+    <ClInclude Include="Control\UIProgress.h" />
+    <ClInclude Include="Control\UIRadioBox.h" />
+    <ClInclude Include="Control\UIRichEdit.h" />
+    <ClInclude Include="Control\UIScrollBar.h" />
+    <ClInclude Include="Control\UISlider.h" />
+    <ClInclude Include="Control\UIText.h" />
+    <ClInclude Include="Control\UITreeView.h" />
+    <ClInclude Include="Control\UIWebBrowser.h" />
+    <ClInclude Include="Core\UIBase.h" />
+    <ClInclude Include="Core\UIContainer.h" />
+    <ClInclude Include="Core\UIControl.h" />
+    <ClInclude Include="Core\UIDefine.h" />
+    <ClInclude Include="Core\UIDlgBuilder.h" />
+    <ClInclude Include="Core\UIDxAnimation.h" />
+    <ClInclude Include="Core\UIManager.h" />
+    <ClInclude Include="Core\UIMarkup.h" />
+    <ClInclude Include="Core\UIRender.h" />
+    <ClInclude Include="Core\UIRenderCore.h" />
+    <ClInclude Include="Core\UITimer.h" />
+    <ClInclude Include="Layout\UIAnimationTabLayout.h" />
+    <ClInclude Include="Layout\UIChildLayout.h" />
+    <ClInclude Include="Layout\UIFrameLayout.h" />
+    <ClInclude Include="Layout\UIHorizontalLayout.h" />
+    <ClInclude Include="Layout\UILinearLayout.h" />
+    <ClInclude Include="Layout\UITabLayout.h" />
+    <ClInclude Include="Layout\UITileLayout.h" />
+    <ClInclude Include="Layout\UIVerticalLayout.h" />
+    <ClInclude Include="Utils\CommonDefine.h" />
+    <ClInclude Include="Utils\CryptographyExt.h" />
+    <ClInclude Include="Utils\downloadmgr.h" />
+    <ClInclude Include="Utils\DuiAutoComplete.h" />
+    <ClInclude Include="Utils\DuiHardwareInfo.h" />
+    <ClInclude Include="Utils\DuiPointer.h" />
+    <ClInclude Include="Utils\DuiReflection.h" />
+    <ClInclude Include="Utils\DuiTrayIcon.h" />
+    <ClInclude Include="Utils\GdiPlusEnv.h" />
+    <ClInclude Include="Utils\GenerAlgorithm.h" />
+    <ClInclude Include="Utils\Internal.h" />
+    <ClInclude Include="Utils\IRenderDefine.h" />
+    <ClInclude Include="Utils\IWindowBase.h" />
+    <ClInclude Include="Utils\mem_image.h" />
+    <ClInclude Include="Utils\observer_impl_base.h" />
+    <ClInclude Include="Utils\SSESupport.h" />
+    <ClInclude Include="Utils\UIDelegate.h" />
+    <ClInclude Include="Utils\Utils.h" />
+    <ClInclude Include="Utils\WaitableHandleMgr.h" />
+    <ClInclude Include="Utils\WebBrowserEventHandler.h" />
+    <ClInclude Include="Renders\UIRenderGDI.h" />
+    <ClInclude Include="Utils\WinImplBase.h" />
+    <ClInclude Include="Utils\WndShadow.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="UiLib.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

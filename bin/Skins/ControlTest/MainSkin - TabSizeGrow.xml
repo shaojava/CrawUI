@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window size="900,600" caption="0,0,0,-1">
+	<VerticalLayout name="scroll" bkcolor="0xff222222" vscrollbar="true">
+		<Control name="takeplace" bkcolor="0xffff0000" height="200"/>
+		
+		<VerticalLayout name="parent"  bkcolor="0xffff00ff" sizegrow="true">
+			<List name="domainlist" height="300" inset="0,0,0,0" itemshowhtml="true" vscrollbar="true" hscrollbar="true" headerbkimage="file='list_header_bg.png'" itemalign="center" itembkcolor="#FFE2DDDF" itemaltbk="true" menu="true">
+				<ListHeader height="30" menu="true">
+					<ListHeaderItem text="No" font="1" width="100" hotimage="file='list_header_hot.png'" pushedimage="file='list_header_pushed.png'" sepimage="file='list_header_sep.png'" sepwidth="1">
+						<Button float="true" text="test" pos="2,5,0,0" width="30" height="20"/>
+					</ListHeaderItem>
+					<ListHeaderItem text="Domain" font="1" width="460" hotimage="file='list_header_hot.png'" pushedimage="file='list_header_pushed.png'" sepimage="file='list_header_sep.png'" sepwidth="1"/>
+					<ListHeaderItem text="Description" font="1"  hotimage="file='list_header_hot.png'" pushedimage="file='list_header_pushed.png'" sepimage="file='list_header_sep.png'" sepwidth="1"/>
+				</ListHeader>
+
+				<ListContainerElement bkcolor="0xffffff00">
+					<Control />
+				</ListContainerElement>  
+			</List>
+
+			<TabLayout bkcolor="0xff00ffff" name="tab" selectedid="0" sizegrow="true">
+
+				<HorizontalLayout bkcolor="0xffcccccc" name="tab1" sizegrow="true" >
+					<Control sizeSqueeze="false" name="tableft" bkcolor="0xff225489" />
+					
+					<HorizontalLayout name="tabRight" bkcolor="0xff951157">
+						<Button float="true" pos="10,10,0,0" width="70" height="35" name="ModifyHeight" bkcolor="0xff77f045" />
+					</HorizontalLayout>
+				</HorizontalLayout>
+
+
+
+			</TabLayout>
+		</VerticalLayout>
+	</VerticalLayout>
+</Window>

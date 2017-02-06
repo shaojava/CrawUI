@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="630,370" caption="0,0,0,-1" shadow="false">
+    <Font name="微软雅黑" size="12" bold="false" italic="false"/>
+    <Font name="微软雅黑" size="12" bold="true" italic="false" />
+	<Font name="微软雅黑" size="14" bold="false" italic="false" />
+    <Font name="微软雅黑" size="14" bold="true" italic="false" />
+	<Font name="微软雅黑" size="18" bold="false" italic="false" />
+    <Font name="微软雅黑" size="22" bold="true" italic="false" />
+    <Font name="微软雅黑" size="26" bold="true" italic="false" />
+   
+    <VerticalLayout inset="1,1,1,1">
+        <HorizontalLayout name="AboutTitleBar" height="40" bkcolor="#FF322f36">
+			<Text name="Titile" text="关于" float="true" pos="8,7,0,0" width="100" height="40" textcolor="#ffffffff" disabledtextcolor="#00C0C0C0" font="3" align="wrap" />
+            <Label />
+			<Button name="SysCloseBtn" width="31" height="26" normalimage="file='RES/关闭.png' source='0,0,31,26'" hotimage="file='RES/关闭.png' source='31,0,62,26'" pushedimage="file='RES/关闭.png' source='62,0,93,26'"/>
+        </HorizontalLayout>
+
+		<VerticalLayout name="BodyPanel" bkcolor="#FFFFFFFF" >
+			<HorizontalLayout>
+				<Label width="50" />
+				<VerticalLayout>
+					<Label height="15" />
+					<HorizontalLayout height="60" childpadding="20">
+						<Label name="LabLogo" width="100" height="60" bkcolor="#ff999999"/>
+						<Label name="LabName" text="产品名称" font="4"/>
+					</HorizontalLayout>
+					<Label />
+					<HorizontalLayout height="30">
+						<Label text="版本号：" width="100" textcolor="#FF7b7b7b" font="2" align="right"/>
+						<Label name="LabEditon" width="100" text="V1.0.0.0" textcolor="#FF7b7b7b" font="2" align="right"/>
+						<Button name="BtnUpdate" text="<a>检测到有新版本</a>" showhtml="true" width="150" textpadding="0,0,0,5"/>
+					</HorizontalLayout>
+					<Label />	
+					<HorizontalLayout height="30">
+						<Label text="出品公司：" width="100" textcolor="#FF7b7b7b" font="2" align="right"/>
+						<Label name="LabCop" text="湖北盛天网络技术股份有限公司" textcolor="#FF7b7b7b" font="2" align="left"/>
+					</HorizontalLayout>
+					<Label />
+					<HorizontalLayout height="30">
+						<Label text="技术支持：" width="100" textcolor="#FF7b7b7b" font="2" align="right"/>
+						<Label name="LabTel" text="400-8858-580" textcolor="#FF7b7b7b" font="2" align="left"/>
+					</HorizontalLayout>
+					<Label />
+					<HorizontalLayout height="30">
+						<Label />
+						<Label name="LabCopyright" width="450" text="Copyright © 2002-2014  版权所有  湖北盛天网络技术股份有限公司" textcolor="#FF7b7b7b" font="2" align="center"/>
+						<Label />
+					</HorizontalLayout>
+					<Label height="20"/>
+				</VerticalLayout>
+				<Label width="50" />
+			</HorizontalLayout>
+		</VerticalLayout>
+		
+	</VerticalLayout>
+	
+</Window>

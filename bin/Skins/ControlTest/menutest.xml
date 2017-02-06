@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window bktrans="true">
+	<Font name="微软雅黑" size="12" bold="false" italic="false" />
+    <Font name="微软雅黑" size="12" bold="true" italic="false" />
+    <Font name="微软雅黑" size="14" bold="false" italic="false" />
+	<Font name="微软雅黑" size="14" bold="true" italic="false" />
+	<Font name="微软雅黑" size="18" bold="true" italic="false" />
+    <Font name="微软雅黑" size="22" bold="false" italic="false" />
+    <Font name="微软雅黑" size="26" bold="true" italic="false" />
+
+	<Default name="Menu" value="inset=&quot;1,1,4,1&quot; itemtextpadding=&quot;30,0,0,0&quot; font=&quot;2&quot; bkimage=&quot;file='RES/悬浮框02.png' corner='40,8,8,8'&quot; itemhotimage=&quot;file='RES/右键高亮.png' corner='40,8,8,8'&quot;"/>
+
+	<Menu name="MainMenu" width="135" >
+		<MenuElement text="充值" height="30"  >
+		</MenuElement>
+		
+	</Menu>
+</Window>

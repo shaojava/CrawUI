@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window size="500,300"  >
+	<Font name="微软雅黑,雅黑,宋体" size="12" />
+
+	<VerticalLayout  bkcolor="#2f7f7f7f">
+		<Container name="parent" inset="2,2,2,2" backcolor="0xff00ff">
+			<FrameImage name="frame" width="200" height="200"/>
+		</Container>
+		
+	</VerticalLayout>
+	
+</Window>

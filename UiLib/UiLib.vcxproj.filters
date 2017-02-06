@@ -1,0 +1,587 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="源文件\Control">
+      <UniqueIdentifier>{dc0c73cc-1380-47c2-8275-1deacdbd86da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Core">
+      <UniqueIdentifier>{f70b5f0c-04d2-47c0-a7de-ad31ad3c14af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Layout">
+      <UniqueIdentifier>{15533ed1-fe12-4117-b8f5-efac70ab0474}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Utils">
+      <UniqueIdentifier>{48528dbf-3b87-4b4a-a20e-a5c85476614e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Renders">
+      <UniqueIdentifier>{e4db9b14-bbf2-42fe-92cd-f283ed63c9f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="头文件\Control">
+      <UniqueIdentifier>{c7cebbad-57fe-4481-8d2f-baaa8d7712ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Core">
+      <UniqueIdentifier>{ff2f6c93-e8a3-4dcd-b84e-b18a73d4544b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Layout">
+      <UniqueIdentifier>{55bb0d91-5ab0-419a-ad29-973d7eabc83a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Utils">
+      <UniqueIdentifier>{f2e01178-ebeb-4013-8bd7-d85223e64fcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Renders">
+      <UniqueIdentifier>{cdf9650f-87a7-4263-b4d4-f4545bc1ae7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="头文件\Animation">
+      <UniqueIdentifier>{cd9aaa11-3860-46ae-b7b9-088315d7947c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Animation">
+      <UniqueIdentifier>{bd202930-c614-4116-bd62-d5ff15539877}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\AnimateControl">
+      <UniqueIdentifier>{516cecf1-6230-4f9a-9b1c-daae3dc4398f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\AnimateControl">
+      <UniqueIdentifier>{03598958-32e9-4155-b181-8754e6876c57}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UIlib.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\UIActiveX.cpp">
+      <Filter>源文件\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\UIAnimation.cpp">
+      <Filter>源文件\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\UIButton.cpp">
+      <Filter>源文件\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\UICalendar.cpp">
+      <Filter>源文件\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\UIChartView.cpp">
+      <Filter>源文件\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\UICheckBox.cpp">
+      <Filter>源文件\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\UICombo.cpp">
+      <Filter>源文件\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\UIComboBox.cpp">
+      <Filter>源文件\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\UIEdit.cpp">
+      <Filter>源文件\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\UIFadeButton.cpp">
+      <Filter>源文件\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\UIFlash.cpp">
+      <Filter>源文件\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\UIGifAnim.cpp">
+      <Filter>源文件\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\UILabel.cpp">
+      <Filter>源文件\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\UIList.cpp">
+      <Filter>源文件\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\UiListView.cpp">
+      <Filter>源文件\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\UIOption.cpp">
+      <Filter>源文件\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\UIProgress.cpp">
+      <Filter>源文件\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\UIRadioBox.cpp">
+      <Filter>源文件\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\UIRichEdit.cpp">
+      <Filter>源文件\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\UIScrollBar.cpp">
+      <Filter>源文件\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\UISlider.cpp">
+      <Filter>源文件\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\UIText.cpp">
+      <Filter>源文件\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\UITreeView.cpp">
+      <Filter>源文件\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\UIWebBrowser.cpp">
+      <Filter>源文件\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\UIBase.cpp">
+      <Filter>源文件\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\UIContainer.cpp">
+      <Filter>源文件\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\UIControl.cpp">
+      <Filter>源文件\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\UIDlgBuilder.cpp">
+      <Filter>源文件\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\UIDxAnimation.cpp">
+      <Filter>源文件\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\UIManager.cpp">
+      <Filter>源文件\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\UIMarkup.cpp">
+      <Filter>源文件\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\UIRender.cpp">
+      <Filter>源文件\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\UIRenderCore.cpp">
+      <Filter>源文件\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\UITimer.cpp">
+      <Filter>源文件\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Layout\UIAnimationTabLayout.cpp">
+      <Filter>源文件\Layout</Filter>
+    </ClCompile>
+    <ClCompile Include="Layout\UIChildLayout.cpp">
+      <Filter>源文件\Layout</Filter>
+    </ClCompile>
+    <ClCompile Include="Layout\UIHorizontalLayout.cpp">
+      <Filter>源文件\Layout</Filter>
+    </ClCompile>
+    <ClCompile Include="Layout\UITabLayout.cpp">
+      <Filter>源文件\Layout</Filter>
+    </ClCompile>
+    <ClCompile Include="Layout\UITileLayout.cpp">
+      <Filter>源文件\Layout</Filter>
+    </ClCompile>
+    <ClCompile Include="Layout\UIVerticalLayout.cpp">
+      <Filter>源文件\Layout</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\DuiAutoComplete.cpp">
+      <Filter>源文件\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\DuiHardwareInfo.cpp">
+      <Filter>源文件\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\DuiReflection.cpp">
+      <Filter>源文件\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\DuiTrayIcon.cpp">
+      <Filter>源文件\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\IWindowBase.cpp">
+      <Filter>源文件\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\mem_image.cpp">
+      <Filter>源文件\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\stb_image.c">
+      <Filter>源文件\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\UIDelegate.cpp">
+      <Filter>源文件\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\Utils.cpp">
+      <Filter>源文件\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Renders\UIRenderGDI.cpp">
+      <Filter>源文件\Renders</Filter>
+    </ClCompile>
+    <ClCompile Include="Renders\UIRenderSKIA.cpp">
+      <Filter>源文件\Renders</Filter>
+    </ClCompile>
+    <ClCompile Include="Renders\UIRenderD2D.cpp">
+      <Filter>源文件\Renders</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\UIMenu.cpp">
+      <Filter>源文件\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\UITab.cpp">
+      <Filter>源文件\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\UIDateTime.cpp">
+      <Filter>源文件\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\UICaptcha.cpp">
+      <Filter>源文件\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Layout\UIBinLayout.cpp">
+      <Filter>源文件\Layout</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\GenerAlgorithm.cpp">
+      <Filter>源文件\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\UIToolTips.cpp">
+      <Filter>源文件\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\UIWndContainer.cpp">
+      <Filter>源文件\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\SSESupport.cpp">
+      <Filter>源文件\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\UICaret.cpp">
+      <Filter>源文件\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Control\UIMoveAbleContainer.cpp">
+      <Filter>源文件\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\WinImplBase.cpp">
+      <Filter>源文件\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\XUnzip.cpp">
+      <Filter>源文件\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\WaitableHandleMgr.cpp">
+      <Filter>源文件\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation\UIAnimateManager.cpp">
+      <Filter>源文件\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation\TimeLine.cpp">
+      <Filter>源文件\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation\Tween.cpp">
+      <Filter>源文件\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation\StoryBoard.cpp">
+      <Filter>源文件\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimateControl\UIMaskControl.cpp">
+      <Filter>源文件\AnimateControl</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimateControl\UILocker.cpp">
+      <Filter>源文件\AnimateControl</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation\TimeLineTween.cpp">
+      <Filter>源文件\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation\TimeLineBezier.cpp">
+      <Filter>源文件\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation\TimeLineDecay.cpp">
+      <Filter>源文件\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation\TimeLineSpring.cpp">
+      <Filter>源文件\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\WndShadow.cpp">
+      <Filter>源文件\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\CryptographyExt.cpp">
+      <Filter>源文件\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\DuiSystemInfo.cpp">
+      <Filter>源文件\Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UIlib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\UIActiveX.h">
+      <Filter>头文件\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\UIAnimation.h">
+      <Filter>头文件\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\UIButton.h">
+      <Filter>头文件\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\UICalendar.h">
+      <Filter>头文件\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\UIChartView.h">
+      <Filter>头文件\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\UICheckBox.h">
+      <Filter>头文件\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\UICombo.h">
+      <Filter>头文件\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\UIComboBox.h">
+      <Filter>头文件\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\UIEdit.h">
+      <Filter>头文件\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\UIFadeButton.h">
+      <Filter>头文件\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\UIFlash.h">
+      <Filter>头文件\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\UIGifAnim.h">
+      <Filter>头文件\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\UILabel.h">
+      <Filter>头文件\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\UIList.h">
+      <Filter>头文件\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\UiListView.h">
+      <Filter>头文件\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\UIOption.h">
+      <Filter>头文件\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\UIProgress.h">
+      <Filter>头文件\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\UIRadioBox.h">
+      <Filter>头文件\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\UIRichEdit.h">
+      <Filter>头文件\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\UIScrollBar.h">
+      <Filter>头文件\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\UISlider.h">
+      <Filter>头文件\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\UIText.h">
+      <Filter>头文件\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\UITreeView.h">
+      <Filter>头文件\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\UIWebBrowser.h">
+      <Filter>头文件\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\UIBase.h">
+      <Filter>头文件\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\UIContainer.h">
+      <Filter>头文件\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\UIControl.h">
+      <Filter>头文件\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\UIDefine.h">
+      <Filter>头文件\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\UIDlgBuilder.h">
+      <Filter>头文件\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\UIDxAnimation.h">
+      <Filter>头文件\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\UIManager.h">
+      <Filter>头文件\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\UIMarkup.h">
+      <Filter>头文件\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\UIRender.h">
+      <Filter>头文件\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\UIRenderCore.h">
+      <Filter>头文件\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\UITimer.h">
+      <Filter>头文件\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Layout\UIAnimationTabLayout.h">
+      <Filter>头文件\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="Layout\UIChildLayout.h">
+      <Filter>头文件\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="Layout\UIFrameLayout.h">
+      <Filter>头文件\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="Layout\UIHorizontalLayout.h">
+      <Filter>头文件\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="Layout\UILinearLayout.h">
+      <Filter>头文件\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="Layout\UITabLayout.h">
+      <Filter>头文件\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="Layout\UITileLayout.h">
+      <Filter>头文件\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="Layout\UIVerticalLayout.h">
+      <Filter>头文件\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\downloadmgr.h">
+      <Filter>头文件\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\DuiAutoComplete.h">
+      <Filter>头文件\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\DuiHardwareInfo.h">
+      <Filter>头文件\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\DuiPointer.h">
+      <Filter>头文件\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\DuiReflection.h">
+      <Filter>头文件\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\DuiTrayIcon.h">
+      <Filter>头文件\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\GdiPlusEnv.h">
+      <Filter>头文件\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Internal.h">
+      <Filter>头文件\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\IWindowBase.h">
+      <Filter>头文件\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\mem_image.h">
+      <Filter>头文件\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\UIDelegate.h">
+      <Filter>头文件\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Utils.h">
+      <Filter>头文件\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\WebBrowserEventHandler.h">
+      <Filter>头文件\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Renders\UIRenderGDI.h">
+      <Filter>头文件\Renders</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\IRenderDefine.h">
+      <Filter>头文件\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\IRenderCore.h">
+      <Filter>头文件\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Renders\UIRenderSKIA.h">
+      <Filter>头文件\Renders</Filter>
+    </ClInclude>
+    <ClInclude Include="Renders\UIRenderD2D.h">
+      <Filter>头文件\Renders</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\UIMenu.h">
+      <Filter>头文件\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\observer_impl_base.h">
+      <Filter>头文件\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\UITab.h">
+      <Filter>头文件\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\UIDateTime.h">
+      <Filter>头文件\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\UICaptcha.h">
+      <Filter>头文件\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Layout\UIBinLayout.h">
+      <Filter>头文件\Layout</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\GenerAlgorithm.h">
+      <Filter>头文件\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\UIToolTips.h">
+      <Filter>头文件\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\UIWndContainer.h">
+      <Filter>头文件\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\SSESupport.h">
+      <Filter>头文件\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\UICaret.h">
+      <Filter>头文件\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Control\UIMoveAbleContainer.h">
+      <Filter>头文件\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\WinImplBase.h">
+      <Filter>头文件\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\CommonDefine.h">
+      <Filter>头文件\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\WaitableHandleMgr.h">
+      <Filter>头文件\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\UIAnimateManager.h">
+      <Filter>头文件\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\TimeLine.h">
+      <Filter>头文件\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\Tween.h">
+      <Filter>头文件\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\StoryBoard.h">
+      <Filter>头文件\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimateControl\UIMaskControl.h">
+      <Filter>头文件\AnimateControl</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimateControl\UILocker.h">
+      <Filter>头文件\AnimateControl</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\TimeLineTween.h">
+      <Filter>头文件\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\TimeLineBezier.h">
+      <Filter>头文件\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\TimeLineDecay.h">
+      <Filter>头文件\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation\TimeLineSpring.h">
+      <Filter>头文件\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\WndShadow.h">
+      <Filter>头文件\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\CryptographyExt.h">
+      <Filter>头文件\Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="UiLib.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

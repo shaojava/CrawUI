@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window size="200,200" roundcorner="3,3" sizebox="3,3,3,3" caption="0,0,0,-1" bktrans="true" >
+	<Font name="微软雅黑,雅黑,宋体" size="12" />
+	<HorizontalLayout >
+		<HorizontalLayout name="left" width="19" bkcolor="0xffff0000" >
+			<VerticalLayout>
+				<VerticalLayout>
+				</VerticalLayout>
+				<VerticalLayout height="23" bkcolor="0xffffff00">
+				</VerticalLayout>
+				<VerticalLayout>
+				</VerticalLayout>
+			</VerticalLayout>
+		</HorizontalLayout>
+		
+		<VerticalLayout>
+			<HorizontalLayout name="top" height="12" bkcolor="0xff00ff00">
+				<HorizontalLayout>
+				</HorizontalLayout>
+				<HorizontalLayout width="19" bkcolor="0xff0000ff">
+				</HorizontalLayout>
+				<HorizontalLayout>
+				</HorizontalLayout>
+			</HorizontalLayout>
+			
+			<HorizontalLayout>
+				<ToolTips bkimage="file='bkimage/bkimg.png' corner='10,10,10,10' fade='255' " />
+			</HorizontalLayout>
+			
+			<HorizontalLayout name="bottom" height="12" bkcolor="0xff00ff00">
+				<HorizontalLayout>
+				</HorizontalLayout>
+				<HorizontalLayout width="19" bkcolor="0xff0000ff">
+				</HorizontalLayout>
+				<HorizontalLayout>
+				</HorizontalLayout>
+			</HorizontalLayout>
+		</VerticalLayout>
+		
+		<HorizontalLayout name="right" width="19" bkcolor="0xffff0000">
+			<VerticalLayout>
+				<VerticalLayout>
+				</VerticalLayout>
+				<VerticalLayout height="23" bkcolor="0xffffff00">
+				</VerticalLayout>
+				<VerticalLayout>
+				</VerticalLayout>
+			</VerticalLayout>
+		</HorizontalLayout>
+	</HorizontalLayout>
+</Window>

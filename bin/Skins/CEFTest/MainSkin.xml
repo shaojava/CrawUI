@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window size="900,600" roundcorner="3,3" sizebox="3,3,3,3" caption="2,2,2,96" bktrans="false" glass="false" showdirty= "false" >
+	<Font name="微软雅黑,雅黑,宋体" size="12" />
+	
+	<VerticalLayout bkcolor="0xff7f7f7f" >
+	
+	</VerticalLayout>
+</Window>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="120,60" bktrans="true">
+    <Font name="宋体" size="13" bold="false" italic="false" />
+    <Font name="宋体" size="12" bold="false" italic="false" />
+    <VerticalLayout bkimage="file=&apos;TabMenu\menu_bk.png&apos; corner=&apos;40,8,8,8&apos;">
+        <List itemtextcolor="#FF000000" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFC1E3FF" itemhottextcolor="#FF000000" itemhotbkcolor="#FFE9F5FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#20000000" itemhotimage="file=&apos;TabMenu\menu_hot_bk.png&apos; corner=&apos;2,2,2,2&apos;" header="hidden" inset="8,8,8,8">
+            <ListHeader />
+            <ListContainerElement name="Delete" height="22" inset="40,0,0,0">
+                <Label text="删除" mouse="false" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+            </ListContainerElement>
+            <ListContainerElement name="DeleteAll" height="22" inset="40,0,0,0">
+                <Label text="删除所有" mouse="false" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+            </ListContainerElement>
+        </List>
+    </VerticalLayout>
+</Window>

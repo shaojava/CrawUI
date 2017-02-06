@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window size="200,200" roundcorner="3,3" sizebox="3,3,3,3" caption="0,0,0,-1" bktrans="false" >
+	<Font name="微软雅黑,雅黑,宋体" size="12" />
+	<VerticalLayout bkcolor="0xffffff">
+		<RichEdit bordersize="1" />
+	</VerticalLayout>
+</Window>
